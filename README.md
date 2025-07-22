@@ -10,16 +10,7 @@ This is my personal website, built with HTML and CSS, and hosted on GitHub Pages
 
 ## Project Structure
 
-My-Web-Page/
-├── css/
-│   ├── main.css
-│   └── welcome.css
-├── images/
-│   ├── avatar.gif
-│   └── avatar.jpg
-├── LICENSE
-├── index.html
-└── main.html
+My-Web-Page/ ├── css/ │ ├── main.css │ └── welcome.css ├── images/ │ ├── avatar.gif │ └── avatar.jpg ├── LICENSE ├── index.html └── main.html
 
 
 - **index.html**: Main entry point for the website.
@@ -39,7 +30,7 @@ My-Web-Page/
 ## How to Use
 
 1. **View Online:**  
-   Visit [https://justaregulargeek.github.io/My-Web-Page/] (https://justaregulargeek.github.io/My-Web-Page/)
+[View the website here!](https://justaregulargeek.github.io/My-Web-Page/)
 
 2. **Run Locally:**  
    - Download or clone this repository.
