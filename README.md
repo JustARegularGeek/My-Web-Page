@@ -10,7 +10,15 @@ This is my personal website, built with HTML and CSS, and hosted on GitHub Pages
 
 ## Project Structure
 
-<pre> ``` My-Web-Page/ ├── css/ │ ├── main.css │ └── welcome.css ├── images/ │ ├── avatar.gif │ └── avatar.jpg ├── LICENSE ├── index.html └── main.html ``` </pre>
+- css/
+  - main.css
+  - welcome.css
+- images/
+  - avatar.gif
+  - avatar.jpg
+- LICENSE
+- index.html
+- main.html
 
 
 - **index.html**: Main entry point for the website.
