@@ -1,0 +1,217 @@
+/* ======= Global Styles ======= */
+
+/* Base box model for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Main body styling with full height and background gradient */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, #8294C4, #56697B);
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative border effect around the page */
+body::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.232);
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.24),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Centers avatar, message, and button vertically and horizontally */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;           
+    gap: 0;               
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Circular avatar with border and subtle shadow */
+img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    border-color: darkslateblue;
+    border-width: 2px;
+    border-style: solid;
+    transition: width 2s, height 2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+}
+
+/* Enlarges avatar on hover */
+img:hover {
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Learn More button with rounded corners and soft hover effects */
+button {
+    background-color: #DBDFEA;
+    border-color: darkslateblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: darkslateblue;
+    transition-duration: 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: auto;
+}
+
+/* Learn More button with rounded corners and soft hover effects */
+button:hover {
+    background-color: #F9EFF0;
+    color: darkslateblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Click effect: press-down look */
+button:active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(4px);
+}
+
+/* Intro message box under avatar */
+.message {
+    width: 20%;
+    background-color: #DBDFEA;
+    border-color: darkslateblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* Shared spacing for key elements */
+img, .message, button {
+  margin: 15px;
+}
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    img {
+        width: 50%;
+    }
+
+    img:hover {
+        width: 60%;
+        height: auto;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    .message {
+        width: 35%;
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 600px) {
+    img {
+        width: 40%;
+    }
+
+    img:hover {
+        width: 50%;
+        height: auto;
+    }
+
+    button {
+        width: 25%;
+    }
+
+    .message {
+        width: 30%;
+    }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 768px) {
+    img {
+        width: 30%;
+    }
+
+    img:hover {
+        width: 40%;
+        height: auto;
+    }
+
+    button {
+        width: 20%;
+    }
+
+    .message {
+        width: 25%;
+    }
+}
+
+/* Extra large desktops */
+@media only screen and (min-width: 992px) {
+    img {
+        width: 25%;
+    }
+
+    img:hover {
+        width: 35%;
+        height: auto;
+    }
+
+    button {
+        width: 15%;
+    }
+
+    .message {
+        width: 20%;
+    }
+}
+
+/* Full HD screens and above */
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 20%;
+    }
+
+    img:hover {
+        width: 30%;
+        height: auto;
+    }
+
+    button {
+        width: 12%;
+    }
+
+    .message {
+        width: 20%;
+    }
+}
