@@ -43,6 +43,7 @@ body {
     text-decoration: none;
     border-radius: 30px;
     border-color: darkslateblue;
+    color: darkslateblue;
 }
 
 /* Hover effect for navigation links and highlight section when targeted via anchor */
