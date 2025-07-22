@@ -10,17 +10,6 @@ This is my personal website, built with HTML and CSS, and hosted on GitHub Pages
 
 ## Project Structure
 
-- css/
-  - main.css
-  - welcome.css
-- images/
-  - avatar.gif
-  - avatar.jpg
-- LICENSE
-- index.html
-- main.html
-
-
 - **index.html**: Main entry point for the website.
 - **main.html**: Additional page with more detailed content.
 - **css/**: Contains all CSS stylesheets.
