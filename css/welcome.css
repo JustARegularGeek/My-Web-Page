@@ -126,11 +126,11 @@ img, .message, button {
     }
 
     button {
-        width: 35%;
+        width: 50%;
     }
 
     .message {
-        width: 40%;
+        width: 50%;
     }
 }
 
