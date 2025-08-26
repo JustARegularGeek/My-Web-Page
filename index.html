@@ -7,35 +7,324 @@
     <title>My Web Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Link to custom stylesheet -->
-    <link rel="stylesheet" href="css/welcome.css">
-    
+    <link rel="stylesheet" href="style.css">
+
     <!-- Google Fonts: Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-    <!-- Main container -->
-    <main class="container-box">
+    <!-- Navigation Bar -->
+    <div class="navigation title">
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#technical-skills">Technical Skills</a>
+        <a href="#languages">Languages</a>
+        <a href="#other-skills">Other Skills</a>
+        <a href="#hobbies-interests">Hobbies & Interests</a>
+    </div>
+    
+    <!-- Main Page Container -->
+    <div  class="page-container">
 
-        <!-- Centered content with avatar, message, and button -->
-        <div class="flex-container">
+        <!-- Sidebar: Personal Info -->
+        <div class="side">
 
-            <!-- Avatar gif -->
-            <img src="images/avatar.gif" alt="Animated Avatar">
+            <div class="flex-container">
 
-            <!-- Greeting message -->
-            <div class="message">Hi, I'm Nicoletta. Nice to meet you!</div>
+                <!-- Profile Image -->
+                <img src="avatar.jpg" alt="Avatar">
 
-            <!-- Navigation button -->
-            <button onclick="window.location.href='main.html'">Learn More</button>
-            
+                <!-- Name -->
+                <div class="box-personal-info title" style="width: 50% ; border: 2px solid darkslateblue;">Nicoletta Fotiou</div>
+
+                <!-- Address Info -->
+                <div class="box-personal-info">
+
+                    <div class="title">Address</div>
+
+                    <br>
+
+                    <div class="content">
+                        2A, Faneromenis Street,
+                        Pano Deftera, P.C. 2460,
+                        Nicosia, Cyprus
+                    </div>
+
+                </div>
+
+                <!-- Phone Info -->
+                <div class="box-personal-info">
+
+                    <div class="title">Phone Number</div>
+
+                    <br>
+
+                    <div class="content">
+                    +357 99 075627
+                    </div>
+
+                </div>
+
+                <!-- Email Info -->
+                <div class="box-personal-info">
+
+                    <div class="title">Email</div>
+
+                    <br>
+
+                    <div class="email-github-container">
+                    <a href="mailto:nicolettafotiou06@gmail.com">
+                        <i class="fas fa-envelope email-github-icon"></i>
+                    </a>
+                    <div class="email-github-text">nicolettafotiou06@gmail.com</div>
+                    </div>
+
+                </div>
+
+                <!-- GitHub Info -->
+                <div class="box-personal-info">
+
+                    <div class="title">GitHub</div>
+
+                    <br>
+
+                    <div class="email-github-container">
+                    <a href="https://github.com/JustARegularGeek">
+                        <i class="fab fa-github fa-2x email-github-icon"></i>
+                    </a>
+                    <div class="email-github-text">https://github.com/JustARegularGeek</div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-    </main>
+        <!-- Main Content Area -->
+        <div class="main">
+
+            <div class="flex-container">
+
+                <!-- Experience Section -->
+                <div id="experience" class="box-skills-info">
+
+                    <div  class="title" style="text-align: center">Experience</div>
+
+                    <br>
+
+                    <div class="content">
+
+                        Summer 2025 (6-week internship)
+
+                        <br>
+
+                        <b>Internship – Cellock</b>
+
+                        <ul>
+                            <li>Assisted with technical documentation</li>
+                            <li>Performed basic software testing and bug reporting</li>
+                            <li>Participated in VR setup</li>
+                        </ul>
+
+                        <br>
+
+                        September 2024 – Present
+
+                        <br>
+
+                        <b>Part-time position - Centre for Entrepreneurship (C4E), University of Cyprus</b>
+
+                        <ul>
+                            <li>Web and Social Media Manager</li>
+                            <li>Manage and update the center’s website content</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Education Section -->
+                <div id="education" class="box-skills-info">
+
+                    <div  class="title" style="text-align: center">Education</div>
+
+                    <br>
+
+                    <div class="content">
+
+                        <span style="color: darkslateblue ; font-weight: bold">
+                            2023 – Present
+                            <br>
+                            University of Cyprus
+                        </span>
+
+                        <ul>
+                            <li><b>B.A. in Computer Science</b>, Faculty of Pure and Applied Sciences</li>
+                            <li><b>Minor in Biomedical Engineering</b>, Department of Mechanical and Manufacturing Engineering, Faculty of Engineering</li>
+                        </ul>
+
+                        <br>
+
+                        <span style="color: darkslateblue ; font-weight: bold">                  
+                            2020 – 2023
+                            <br>
+                            Lyceum of Archangelos "Apostolos Markos"
+                        </span>
+
+                        <ul>
+                            <li>High School Diploma: 19.89 / 20</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Technical Skills Section -->
+                <div id="technical-skills" class="box-skills-info">
+
+                    <div  class="title" style="text-align: center">Technical Skills</div>
+
+                    <br>
+
+                    <div class="content">
+
+                        <span style="color: darkslateblue ; font-weight: bold">Operating Systems</span>
+                        <br>
+                        Windows, Linux
+
+                        <br>
+                        <br>
+
+                        <span style="color: darkslateblue ; font-weight: bold">Programming Languages</span>
+                        <br>
+                        Java, C, C++, Python, SQL, HTML, CSS, MIPS Assembly
+
+                        <br>
+                        <br>
+
+                        <span style="color: darkslateblue ; font-weight: bold">Certifications</span>
+                        <br>
+
+                        ECDL Standard Certificate (2019)
+
+                        <ul>
+                            <li>Word Processing</li>
+                            <li>Spreadsheets</li>
+                            <li>Using Databases</li>
+                            <li>Presentations</li>
+                            <li>Online Essentials</li>
+                            <li>Computer Essentials</li>
+                            <li>Online Collaboration</li>
+                        </ul>
+
+                        <span style="color: darkslateblue ; font-weight: bold">Awards and Distinctions</span>
+                        <br>
+
+                        Biology Olympiad
+
+                        <ul>
+                            <li>Gold Medal – 2nd grade of high school</li>
+                            <li>Bronze Medal – 3rd grade of high school</li>
+                        </ul>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Languages Section -->
+                <div id="languages" class="box-skills-info">
+
+                    <div  class="title" style="text-align: center">Languages</div>
+
+                    <br>
+
+                    <div class="content">
+
+                        <b>Greek</b> – Native
+
+                        <br>
+                        <br>
+
+                        <b>English</b> – Very Good
+
+                        <ul> 
+                            <li>IGCSE English: Grade B</li>
+                            <li>English for Computer Science: 9/10 (B2+)</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- Other Skills -->
+                <div id="other-skills" class="box-skills-info">
+
+                    <div class="title" style="text-align: center">Other Skills</div>
+
+                    <br>
+
+                    <div class="content">
+
+                        <ul>
+                            <li>Organized and detail-oriented</li>  
+                            <li>Able to meet deadlines</li>            
+                            <li>Good problem-solving mindset</li> 
+                            <li>Multitasking and planning</li>             
+                        </ul>
+                    
+                    </div>
+
+                </div>
+
+                <!-- Hobbies & Interests -->
+                <div id="hobbies-interests" class="box-skills-info">
+
+                    <div class="title" style="text-align: center">Hobbies & Interests</div>
+
+                    <br>
+                    <br>
+
+                    <div class="box-hobbies">
+
+                        <div class="hobby-items">
+                            <i class="fas fa-dumbbell"></i> Gym
+                        </div>
+
+                        <div class="hobby-items">
+                            <i class="fas fa-user-ninja"></i> Kickboxing
+                        </div>
+
+                        <div class="hobby-items">
+                            <i class="fas fa-book"></i> Reading
+                        </div>
+
+                        <div class="hobby-items">
+                            <i class="fas fa-paint-brush"></i> Drawing
+                        </div>
+
+                        <div class="hobby-items">
+                            <i class="fas fa-theater-masks"></i> Theatre
+
+                    </div>      
+
+                    <br>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
