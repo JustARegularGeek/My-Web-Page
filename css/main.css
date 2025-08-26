@@ -185,16 +185,16 @@ img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.email-icon {
+.email-github-icon {
     color: darkslateblue;
 }
 
-.email-icon:hover {
+.email-github-icon:hover {
     color: royalblue;
 }
 
 /* Email text hidden by default, shown on hover */
-.email-text {
+.email-github-text {
     visibility: hidden;
     position: absolute;
     top: 120%;
@@ -213,13 +213,13 @@ img:hover {
 }
 
 /* Container for email icon and tooltip text */
-.email-container {
+.email-github-container {
     position: relative;
     display: inline-block;
 }
 
 /* Reveal email text on hover */
-.email-container:hover .email-text {
+.email-github-container:hover .email-github-text {
     visibility: visible;
 }
 
